@@ -1,0 +1,47 @@
+# 忽略系统文件
+.DS_Store
+Thumbs.db
+
+# 忽略IDE和编辑器文件
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 忽略Python相关文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 忽略编译生成的文件
+build/
+dist/
+*.egg-info/
+
+# 忽略测试和临时文件
+.pytest_cache/
+.tox/
+coverage/
+
+# 忽略环境文件
+.env
+.venv/
+env/
+venv/
+
+# 忽略大型数据文件（如果需要）
+# *.csv
+# *.xlsx
+# *.json
+
+# 忽略Trae相关文件
+.trae/
+
+# 忽略服务器和部署文件
+start_server.py
+
+# 忽略生成的报告和图表
+*.png
+*.jpg
+*.pdf
